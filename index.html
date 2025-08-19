@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Hero Section</title>
+  <link rel="stylesheet" href="home.css" />
+  <style>
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======================
+       NAVBAR
+  ====================== -->
+  <nav class="navbar">
+    <div class="logo">Alex<span>Dev</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- ======================
+       HERO SECTION
+  ====================== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="intro">👋 Hello, I'm</p>
+      <h1 class="name">Alex Johnson</h1>
+      <h2 class="role">Full-Stack Developer</h2>
+      <p class="description">
+        I create beautiful, functional web applications with modern technologies. 
+        Passionate about clean code and exceptional user experiences.
+      </p>
+
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Email</a>
+      </div>
+
+      <div class="cta-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="https://drive.google.com/file/d/1AbCdEfGhIjKlMnOpQrStUvWxYz/view?usp=sharing" 
+           class="btn secondary" target="_blank">
+           Download CV
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="Asset/Porfil.jpg" alt="Alex Johnson" />
+    </div>
+  </section>
+
+  <!-- ======================
+       ABOUT SECTION
+  ====================== -->
+  <section class="about" id="about">
+    <div class="about-header">
+      <h2>About Me</h2>
+      <p>Passionate developer with a love for creating innovative solutions and beautiful user experiences.</p>
+    </div>
+  
+    <div class="about-container">
+      <!-- Left Text -->
+      <div class="about-text">
+        <p>
+          I'm a passionate full-stack developer with 5+ years of experience building web applications that solve real-world problems. 
+          I love working with modern technologies and frameworks to create scalable, efficient solutions.
+        </p>
+        <p>
+          When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+          or enjoying a good cup of coffee while planning my next creative project.
+        </p>
+        <p>
+          I believe in writing clean, maintainable code and creating user experiences that are both beautiful and functional. 
+          Let's work together to bring your ideas to life!
+        </p>
+      </div>
+  
+      <!-- Right Stats -->
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="icon">💻</div>
+          <h3>50+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <div class="icon">☕</div>
+          <h3>1000+</h3>
+          <p>Cups of Coffee</p>
+        </div>
+        <div class="stat-card">
+          <div class="icon">❤️</div>
+          <h3>25+</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-card">
+          <div class="icon">⚡</div>
+          <h3>5+</h3>
+          <p>Years of Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================
+       SKILLS
+  ====================== -->
+  <section class="skills" id="skills">
+    <div class="skills-header">
+      <h2>Skills & Technologies</h2>
+      <p>
+        I work with a variety of technologies to bring ideas to life, from frontend to backend 
+        and everything in between.
+      </p>
+    </div>
+  
+    <div class="skills-container">
+      <!-- Frontend -->
+      <div class="skill-card">
+        <span class="skill-badge frontend">Frontend</span>
+        <div class="tags">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>Next.js</span>
+          <span>Tailwind CSS</span>
+          <span>Framer Motion</span>
+          <span>Vue.js</span>
+        </div>
+      </div>
+  
+      <!-- Backend -->
+      <div class="skill-card">
+        <span class="skill-badge backend">Backend</span>
+        <div class="tags">
+          <span>Node.js</span>
+          <span>Python</span>
+          <span>Express</span>
+          <span>FastAPI</span>
+          <span>PostgreSQL</span>
+          <span>MongoDB</span>
+        </div>
+      </div>
+  
+      <!-- Tools & Others -->
+      <div class="skill-card">
+        <span class="skill-badge tools">Tools & Others</span>
+        <div class="tags">
+          <span>Git</span>
+          <span>Docker</span>
+          <span>AWS</span>
+          <span>Figma</span>
+          <span>Vercel</span>
+          <span>Prisma</span>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Extra Icons -->
+    <div class="skills-icons">
+      <span>🚀</span>
+      <span>💻</span>
+      <span>⚡</span>
+      <span>🎨</span>
+      <span>🔥</span>
+      <span>✨</span>
+    </div>
+  </section>
+
+  <!-- ======================
+       PROJECTS
+  ====================== -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <h2>Featured Projects</h2>
+      <p>
+        Here are some of my recent projects that showcase my skills and passion 
+        for creating innovative solutions.
+      </p>
+    </div>
+  
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="Asset/E-Commerce Platform.jpg" alt="E-Commerce Platform" />
+        </div>
+        <div class="project-content">
+          <h3>E-Commerce Platform</h3>
+          <p>A full-stack e-commerce solution with React, Node.js, and Stripe integration.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Stripe</span>
+          </div>
+          <a href="#" class="btn purple">View Project</a>
+        </div>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="Asset/Task Management App.jpg" alt="Task Management App" />
+        </div>
+        <div class="project-content">
+          <h3>Task Management App</h3>
+          <p>A collaborative task management application with real-time updates and team features.</p>
+          <div class="tags">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Prisma</span>
+            <span>WebSocket</span>
+          </div>
+          <a href="#" class="btn green">View Project</a>
+        </div>
+      </div>
+  
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="Asset/Powered Analytics Dashboard.jpg" alt="AI Dashboard" />
+        </div>
+        <div class="project-content">
+          <h3>AI-Powered Analytics Dashboard</h3>
+          <p>An intelligent analytics dashboard with machine learning insights and beautiful visualizations.</p>
+          <div class="tags">
+            <span>Vue.js</span>
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>D3.js</span>
+          </div>
+          <a href="#" class="btn pink">View Project</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="view-all">
+      <a href="#" class="btn-outline">View All Projects</a>
+    </div>
+  </section>
+  
+  <!-- ======================
+       CONTACT
+  ====================== -->
+  <section class="contact" id="contact">
+    <div class="contact-header">
+      <h2>Get In Touch</h2>
+      <p>
+        Have a project in mind? Let's work together to bring your ideas to life. 
+        I'm always excited to discuss new opportunities.
+      </p>
+    </div>
+  
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p>
+          I'm always open to discussing new projects, creative ideas, 
+          or opportunities to be part of your vision.
+        </p>
+  
+        <div class="info-card">
+          <span class="icon">📧</span>
+          <div>
+            <p class="label">Email</p>
+            <p>alex@example.com</p>
+          </div>
+        </div>
+  
+        <div class="info-card">
+          <span class="icon">📞</span>
+          <div>
+            <p class="label">Phone</p>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+  
+        <div class="info-card">
+          <span class="icon">📍</span>
+          <div>
+            <p class="label">Location</p>
+            <p>San Francisco, CA</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3>Send Message</h3>
+        <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+  
+        <form id="messageForm">
+          <div class="form-group">
+            <input type="text" name="firstName" placeholder="First Name" required />
+            <input type="text" name="lastName" placeholder="Last Name" required />
+          </div>
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="message" rows="5" placeholder="Message..." required></textarea>
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <script src="home.js"></script>
+</body>
+</html>
